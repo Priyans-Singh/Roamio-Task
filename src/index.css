@@ -582,7 +582,6 @@ nav .right-part .auth-buttons{
 
 .testimonial .t-content .statistics{
   display: flex;
-  flex-wrap: wrap;
   gap:0.2rem;
   align-items: center;
   justify-content: space-between;

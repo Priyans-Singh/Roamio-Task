@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import logo from '../assets/logo.svg'
-import Stats from '../components/stats'
-import profilePic from '../assets/26.png'
-import videoImg from '../assets/Screenshot 2024-05-23 130430.png'
+import React,{ useState } from 'react';
+import logo from '../assets/logo.svg';
+import Stats from '../components/stats';
+import profilePic from '../assets/26.png';
+import videoImg from '../assets/Screenshot 2024-05-23 130430.png';
 
-function heroSection() {
+function HeroSection() {
 
-    const [active,setActive] = useState(false);
+    const [active, setActive] = useState(false);
    
     const statsData = [
         {
@@ -105,4 +105,4 @@ function heroSection() {
   )
 }
 
-export default heroSection
+export default HeroSection;

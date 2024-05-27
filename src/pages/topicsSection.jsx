@@ -3,7 +3,7 @@ import Toggle from '../components/Toggle'
 import Topic1 from '../assets/Topic1.png'
 import Topic2 from '../assets/Topic2.png'
 
-function topicsSection() {
+function TopicsSection() {
     const topics = [
         [
            'Health Care',
@@ -66,4 +66,4 @@ function topicsSection() {
   )
 }
 
-export default topicsSection
+export default TopicsSection

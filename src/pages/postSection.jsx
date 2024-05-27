@@ -4,7 +4,7 @@ import Post1 from '../assets/post1.png';
 import Post2 from '../assets/post2.png';
 import Post3 from '../assets/post3.png';
 
-function postSection() {
+function PostSection() {
   const tags = [
     [
         'Thoughts',
@@ -56,4 +56,4 @@ function postSection() {
   )
 }
 
-export default postSection
+export default PostSection
